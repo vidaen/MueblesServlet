@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Share+Tech+Mono&display=swap');
+*{
+
+    box-sizing: border-box;
+ 
+}
+body{
+
+    max-width: 1200px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-minimalist-furniture-home-poster-image_17152.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+header{
+    width: 100%;
+    background-color: rgb(255, 115, 0);
+    color: #ffffff;
+    height: 10vh;
+    /* width: 1300px; */
+    position:absolute;
+    /* QUEDA PEGADO HEADER CON SECTION */
+    top: 0;
+    margin-top: 0%;
+    z-index: 5px;
+}
+span{
+font-size: 15px;
+color:black;
+font-family: 'Montserrat';
+
+}
+h2{
+
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: azure;
+    text-align: center;
+}
+
+form{
+   
+        width: 350px;
+        height: 500px;
+        padding:50px;
+        background-color: #333333;
+        margin-left: 250px;
+        margin-top: 30px;
+        input{
+            margin-left: 5px;
+            width: 100%;
+            margin-bottom: 10px;
+            height: 35px;
+            padding: 0px 20px;
+            font-size: 1rem;
+            border-radius: 20px;
+            border: 2px solid orangered;
+            background-color: #333333;
+            outline: none;
+            color:rgb(255, 255, 255);
+        }
+        .error input{
+            border: 1px solid #ff0000;
+        }
+        .error-text{
+            color: #ff0000;
+            font-size: 0.8rem;
+            margin-top:0px;
+            margin-bottom: 10px;
+        }
+      
+        .boton{
+            font-family: 'Montserrat';
+
+            width: 80%;
+            box-sizing: content-box;
+            background-color:orangered;
+            border: 2px solid orangered;
+           
+            color: #ffffff;
+            border-radius: 5px;
+            font-size: 16px;
+          
+        }
+                a {
+                    width: 100%;
+                    font-family: 'Montserrat';
+                    background-color: orangered;
+                    border: 2px solid orangered;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    text-decoration: none;
+                    justify-content: end;
+                    margin-right: 20px;
+        
+        
+                }
+                }
+
+
+
+
+
+
+
+
+
+       /*seleccionar todos los input menos el checkbox*/
+    
+@media (max-width: 1200px) {
+
+        
+               .form{
+                width: 100%;
+                text-align: center;
+               
+                input:not(.check,.boton),select{
+                    width: 80%;
+                    height: 35px;
+                    font-size: 1rem;
+                }
+              
+                .boton{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    width: 70%;
+                    padding: 0.8rem 0.8rem;
+                    font-size: 0.8rem;
+                }
+                a{
+                    text-align: left;
+                    font-size: 0.8rem;
+                }
+               }
+               
+            }
+
+    
+

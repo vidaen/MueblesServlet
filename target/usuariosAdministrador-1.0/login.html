@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="furniture_couch_sofa_icon_194660.ico"> 
+</head>
+<body>
+ <!---header/main/section/form/script-->
+    <header class="header">
+       
+        <nav class="navegacion"> 
+            <a href="index.html">
+                <img class="logo" src="furniture_couch_sofa_icon_194660.ico" alt="logo" width="40px" height="40px">
+            </a>
+        <span> MUEBLERIA G8</span>
+           
+        </nav> 
+    </header>
+  <main class="main">
+    <section>
+
+    <form action="/Grupo8/LoginServlet" method="post">
+
+     <h2>Inicio de Sesion</h2>
+     <div>
+        <input type="email" placeholder="email" name="email" id="email">
+        <div class="error-text"></div><br>
+     </div>
+     <div>
+        <input type="password" placeholder="contraseña"  name="password" id="password" >
+        <div class="error-text"></div>
+
+     </div><br><br>
+     <div>
+        <input type="submit"  class="boton" value="Iniciar Sesion">
+
+     </div><br><br>
+     <a href="formu.html">Registrarse</a>
+          
+    </form>
+    </section>
+  </main>
+
+        <script src="script.js"></script>
+</body>
+</html>

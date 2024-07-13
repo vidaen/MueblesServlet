@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Share+Tech+Mono&display=swap');
+body {
+    width: 100%;
+    color: white;
+    background: url(imagenes/muebles-salon-medida-alta-calidad_872147-24040.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+
+}
+
+h3 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+header{
+    height: 5vh;
+    background-color: rgb(255, 115, 0);
+   
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+a{
+
+    font-family:'Montserrat' ;
+    color: black;
+    font-size: 14px;
+    font-weight: 700px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+section{
+    display: flex;
+
+#formulario {
+    width: 400px;
+    height: 500px;
+    background-color: #333333;
+    border: orangered;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: auto;
+    font-family: 'Monterrat';
+    color: white;
+      
+    /* input{
+        width: 90%;
+        height: 30px;
+        background: #333333;
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid orangered;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+       
+
+    } */
+   input  {
+
+        width: 90%;
+        height: 30px;
+        background: #333333;
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid orangered;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+   
+    }
+
+   
+     /* .error input{
+        border: 1px solid #ff0000;
+     }*/
+    .error-text{
+        color: #ff0000;
+        font-size: 0.8rem;
+        margin-top:0px;
+        margin-bottom: 10px;
+    }  
+
+    label {
+        font-size: 15px;
+        font-family: 'Montserrat';
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: 2px;
+    }
+
+
+    .boton {
+
+        background-color: orangered;
+        height: 30px;
+        width: 130px;
+        font-family: 'Montserrat';
+        color: azure;
+        border: 3px;
+        text-align: center;
+        border-radius: 10px;
+        text-decoration: none;
+
+
+    }
+
+    #pais{
+      
+        height: 30px;
+        background: #333333;
+        color: dimgray;
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid orangered;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+
+}
+
+}
